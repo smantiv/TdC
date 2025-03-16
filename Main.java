@@ -15,8 +15,6 @@ public class Main {
         // Construir el árbol sintáctico
         ParseTree tree = parser.programa();
 
-        // Imprimir el árbol sintáctico (para depuración)
-        System.out.println("Árbol Sintáctico: " + tree.toStringTree(parser));
 
         // Ejecutar el intérprete
         SEInterpreter interpreter = new SEInterpreter();
